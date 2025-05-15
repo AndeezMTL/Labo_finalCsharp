@@ -13,7 +13,7 @@
 
         <Button Content="Soumettre"
                 Command="{Binding SubmitCommand}"
-                IsEnabled="{Binding SubmitCommand.CanExecute(true)}"
+                IsEnabled="{Binding SubmitCommand.CanExecute()}"
                 Margin="0 20 0 0" Height="40"/>
     </StackPanel>
 </UserControl>  
